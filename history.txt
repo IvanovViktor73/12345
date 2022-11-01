@@ -1,0 +1,47 @@
+   0 cd /
+   1 cd /opt
+   2 mkdir test
+   3 cd test
+   4 touch file.txt
+   5 ls
+   6 mkdir /opt/test2 touch /opt/test2/file2.txt
+   7 mkdir -p /opt/test/user/student touch /opt/test/user/student
+   8 mkdir /tmp/task && touch /tmp/task/file.txt
+   9 ls /tmp/task/
+  10 cd
+  11 tree /opt
+  12 cp /opt/test/file.txt /root/123/txt
+  13 cp /tmp/task/file.txt /opt
+  14 ls
+  15 mkdir /tmp/task && touch /tmp/task/file.txt
+  16 clear
+  17 tree /opt
+  18 cp /opt/test/file.txt /root/file2.txt
+  19 tree root
+  20 tree /root
+  21 mv /opt/test/file.txt /root/file2.txt
+  22 mv /root/file2.txt /root/newfile2.txt
+  23 tree /opt/
+  24 rmdir --help
+  25 rmdir /opt/test
+  26 rm -rf /opt/test
+  27 tree opt
+  28 tree /opt
+  29 clear
+  30 history
+  31 cat /etc/os-release 
+  32 ls /etc
+  33 cat proc/cpuinfo
+  34 cat /proc/cpuinfo
+  35 date
+  36 df -f
+  37 df -h
+  38 ls
+  39 ls /
+  40 clear
+  41 df
+  42 df -h
+  43 df --help
+  44 hystory
+  45 history
+  46 history > history.txt
